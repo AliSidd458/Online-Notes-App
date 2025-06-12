@@ -1,0 +1,14 @@
+### Get all notes
+GET http://localhost:5000/notes
+Accept: application/json
+
+###
+
+### Create a new note
+POST http://localhost:5000/notes
+Content-Type: application/json
+
+{
+  "title": "My first note",
+  "content": "This is a test note created via VS Code REST Client"
+}
